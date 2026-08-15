@@ -1,1 +1,1503 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
 
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="WebAppForge — framework para criação de aplicações web e PWA com HTML, CSS, JavaScript e JSON. Estrutura modular, componentes reutilizáveis, navegação, modais e suporte offline.">
+
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
+    <meta name="theme-color" content="#08111f">
+
+    <title>
+        WebAppForge — Framework para aplicações web e PWA
+    </title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+
+    <header class="site-header">
+
+        <div class="container nav">
+            <a href="#inicio" class="brand">
+
+                <span class="brand-mark">
+                    <img src="img/logo.png" alt="WebAppForge">
+                </span>
+
+                <span>
+                    WebAppForge
+                </span>
+
+            </a>
+
+
+            <nav class="nav-links">
+
+                <a href="#recursos">
+                    Recursos
+                </a>
+
+                <a href="#como-funciona">
+                    Como funciona
+                </a>
+
+                <a href="#arquitetura">
+                    Arquitetura
+                </a>
+
+                <a href="#autor">
+                    Sobre o autor
+                </a>
+
+                <a href="#faq">
+                    FAQ
+                </a>
+
+            </nav>
+
+
+            <a href="https://pay.hotmart.com/P107154364I?off=2zjk6tid&amp;hotfeature=51&amp;_hi=eyJjaWQiOiIxNzc1NDM3NzUwNjI3NjEwOTUwNzA5MDI4NDI3MDAwIiwiYmlkIjoiMTc3NTQzNzc1MDYyNzYxMDk1MDcwOTAyODQyNzAwMCIsInNpZCI6Ijk3MTg4M2EyNmE4ODQ0OGZhNTM3NGNhZThlMWI2YzZiIn0=.1786809033437"
+                class="btn btn-small">
+                Adquirir
+            </a>
+
+        </div>
+
+    </header>
+
+
+
+    <main id="inicio">
+
+
+        <!-- ========================================================= -->
+        <!-- HERO -->
+        <!-- ========================================================= -->
+
+        <section class="hero">
+
+            <div class="hero-glow glow-one"></div>
+            <div class="hero-glow glow-two"></div>
+
+
+            <div class="container hero-grid">
+
+
+                <div class="hero-copy reveal">
+
+                    <div class="eyebrow">
+
+                        <span></span>
+
+                        Framework para aplicações web e PWA
+
+                    </div>
+
+
+                    <h1>
+
+                        Crie aplicações web
+
+                        <strong>
+                            sem começar do zero.
+                        </strong>
+
+                    </h1>
+
+
+                    <p class="hero-text">
+
+                        O WebAppForge fornece uma estrutura pronta e
+                        organizada para desenvolver aplicações modernas
+                        utilizando <strong>HTML, CSS, JavaScript e JSON</strong>,
+                        com componentes reutilizáveis, navegação, modais,
+                        ações e suporte a PWA.
+
+                    </p>
+
+
+                    <div class="hero-actions">
+
+                        <a href="https://pay.hotmart.com/P107154364I?off=2zjk6tid&amp;hotfeature=51&amp;_hi=eyJjaWQiOiIxNzc1NDM3NzUwNjI3NjEwOTUwNzA5MDI4NDI3MDAwIiwiYmlkIjoiMTc3NTQzNzc1MDYyNzYxMDk1MDcwOTAyODQyNzAwMCIsInNpZCI6Ijk3MTg4M2EyNmE4ODQ0OGZhNTM3NGNhZThlMWI2YzZiIn0=.1786809033437"
+                            class="btn btn-primary btn-large">
+                            Adquira o WebAppForge
+                        </a>
+
+
+                        <a href="#recursos" class="btn btn-ghost btn-large">
+                            Conhecer recursos
+                        </a>
+
+                    </div>
+
+
+                    <div class="trust-row">
+
+                        <span>
+                            ✓ HTML + CSS + JS
+                        </span>
+
+                        <span>
+                            ✓ Componentes
+                        </span>
+
+                        <span>
+                            ✓ JSON
+                        </span>
+
+                        <span>
+                            ✓ PWA
+                        </span>
+
+                        <span>
+                            ✓ Offline
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="hero-visual reveal delay">
+
+                    <div class="code-window">
+
+
+                        <div class="window-bar">
+
+                            <div class="window-dots">
+
+                                <i></i>
+                                <i></i>
+                                <i></i>
+
+                            </div>
+
+                            <span>
+                                WebAppForge
+                            </span>
+
+                        </div>
+
+
+
+                        <div class="code-body">
+
+                            <div>
+
+                                <span class="code-key">
+                                    APP
+                                </span>
+
+                                .navigate(
+
+                                <span class="code-string">
+                                    "home"
+                                </span>
+
+                                );
+
+                            </div>
+
+
+                            <div>
+
+                                <span class="code-key">
+                                    APP
+                                </span>
+
+                                .loadScreen(
+
+                                <span class="code-string">
+                                    "login"
+                                </span>
+
+                                );
+
+                            </div>
+
+
+                            <div>
+
+                                <span class="code-key">
+                                    APP
+                                </span>
+
+                                .loadModal(
+
+                                <span class="code-string">
+                                    "install"
+                                </span>
+
+                                );
+
+                            </div>
+
+
+                            <div>
+
+                                <span class="code-key">
+                                    APP
+                                </span>
+
+                                .actions.login();
+
+                            </div>
+
+
+                            <div>
+
+                                <span class="code-key">
+                                    APP
+                                </span>
+
+                                .run();
+
+                            </div>
+
+
+                            <br>
+
+
+                            <div>
+
+                                <span class="code-comment">
+                                    // Sua aplicação começa aqui.
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="code-status">
+
+                            <span class="status-dot"></span>
+
+                            Aplicação pronta
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ========================================================= -->
+        <!-- RECURSOS -->
+        <!-- ========================================================= -->
+
+        <section class="section intro" id="recursos">
+
+            <div class="container">
+
+
+                <div class="section-heading reveal">
+
+                    <span class="section-label">
+                        RECURSOS
+                    </span>
+
+                    <h2>
+                        Uma estrutura pronta para desenvolver.
+                    </h2>
+
+                    <p>
+
+                        Em vez de montar a estrutura básica de cada projeto
+                        novamente, você começa com uma base organizada para
+                        telas, componentes, navegação, modais, ações e PWA.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="feature-grid">
+
+
+                    <article class="feature-card reveal">
+
+                        <div class="feature-icon">
+                            01
+                        </div>
+
+                        <h3>
+                            Componentes reutilizáveis
+                        </h3>
+
+                        <p>
+
+                            Utilize componentes personalizados como
+                            <code>app-column</code>,
+                            <code>app-row</code>,
+                            <code>app-spacer</code> e
+                            <code>app-modal</code>.
+
+                        </p>
+
+                    </article>
+
+
+
+                    <article class="feature-card reveal">
+
+                        <div class="feature-icon">
+                            02
+                        </div>
+
+                        <h3>
+                            Telas em JSON
+                        </h3>
+
+                        <p>
+
+                            Defina a estrutura das suas telas através
+                            de arquivos JSON organizados e fáceis
+                            de modificar.
+
+                        </p>
+
+                    </article>
+
+
+
+                    <article class="feature-card reveal">
+
+                        <div class="feature-icon">
+                            03
+                        </div>
+
+                        <h3>
+                            Navegação entre telas
+                        </h3>
+
+                        <p>
+
+                            Controle a navegação através de
+                            <code>APP.navigate()</code>, mantendo
+                            a estrutura da aplicação organizada.
+
+                        </p>
+
+                    </article>
+
+
+
+                    <article class="feature-card reveal">
+
+                        <div class="feature-icon">
+                            04
+                        </div>
+
+                        <h3>
+                            Modais personalizados
+                        </h3>
+
+                        <p>
+
+                            Crie modais utilizando a mesma estrutura
+                            baseada em componentes e configurações
+                            utilizadas pela aplicação.
+
+                        </p>
+
+                    </article>
+
+
+
+                    <article class="feature-card reveal">
+
+                        <div class="feature-icon">
+                            05
+                        </div>
+
+                        <h3>
+                            Actions
+                        </h3>
+
+                        <p>
+
+                            Separe a lógica específica da aplicação
+                            utilizando <code>APP.actions</code> e
+                            mantenha o código mais organizado.
+
+                        </p>
+
+                    </article>
+
+
+
+                    <article class="feature-card reveal">
+
+                        <div class="feature-icon">
+                            06
+                        </div>
+
+                        <h3>
+                            PWA e funcionamento offline
+                        </h3>
+
+                        <p>
+
+                            Utilize Manifest, Service Worker e cache
+                            para criar aplicações instaláveis e
+                            disponibilizar recursos offline.
+
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ========================================================= -->
+        <!-- ARQUITETURA -->
+        <!-- ========================================================= -->
+
+        <section class="section dark-section" id="arquitetura">
+
+            <div class="container process-grid">
+
+
+                <div class="section-heading reveal">
+
+                    <span class="section-label">
+                        ARQUITETURA
+                    </span>
+
+                    <h2>
+                        Simples de entender. Fácil de adaptar.
+                    </h2>
+
+                    <p>
+
+                        O WebAppForge separa as principais responsabilidades
+                        da aplicação para facilitar o desenvolvimento,
+                        manutenção e expansão do projeto.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="steps">
+
+
+                    <div class="step reveal">
+
+                        <span>
+                            01
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                HTML
+                            </h3>
+
+                            <p>
+
+                                Fornece a estrutura inicial da aplicação
+                                e o container onde as telas são renderizadas.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="step reveal">
+
+                        <span>
+                            02
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                JSON
+                            </h3>
+
+                            <p>
+
+                                Define a estrutura das telas e dos
+                                componentes que serão renderizados.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="step reveal">
+
+                        <span>
+                            03
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                JavaScript
+                            </h3>
+
+                            <p>
+
+                                A classe <code>App</code> controla
+                                renderização, navegação, modais,
+                                ações e integração com o PWA.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="step reveal">
+
+                        <span>
+                            04
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                CSS
+                            </h3>
+
+                            <p>
+
+                                Controle o tema, layout,
+                                responsividade e estilos específicos
+                                da aplicação.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="step reveal">
+
+                        <span>
+                            05
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                Service Worker
+                            </h3>
+
+                            <p>
+
+                                Gerencie cache, atualização de recursos
+                                e disponibilidade offline.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ========================================================= -->
+        <!-- COMO FUNCIONA -->
+        <!-- ========================================================= -->
+
+        <section class="section" id="como-funciona">
+
+            <div class="container">
+
+
+                <div class="section-heading centered reveal">
+
+                    <span class="section-label">
+                        COMO FUNCIONA
+                    </span>
+
+                    <h2>
+                        Comece com uma estrutura pronta.
+                    </h2>
+
+                    <p>
+
+                        Defina suas telas, monte a interface, adicione
+                        suas funcionalidades e transforme a estrutura
+                        na aplicação que você deseja construir.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="audience-grid">
+
+
+                    <div class="audience-card reveal">
+
+                        <h3>
+                            01 — Crie suas telas
+                        </h3>
+
+                        <p>
+
+                            Crie arquivos como
+                            <code>home.json</code>,
+                            <code>login.json</code>,
+                            <code>register.json</code> e
+                            outras telas da aplicação.
+
+                        </p>
+
+                    </div>
+
+
+
+                    <div class="audience-card reveal">
+
+                        <h3>
+                            02 — Monte a interface
+                        </h3>
+
+                        <p>
+
+                            Combine elementos HTML, estilos e
+                            componentes reutilizáveis através
+                            dos arquivos JSON.
+
+                        </p>
+
+                    </div>
+
+
+
+                    <div class="audience-card reveal">
+
+                        <h3>
+                            03 — Adicione sua lógica
+                        </h3>
+
+                        <p>
+
+                            Desenvolva suas funcionalidades em
+                            <code>actions.js</code> e acesse-as
+                            através de <code>APP.actions</code>.
+
+                        </p>
+
+                    </div>
+
+
+
+                    <div class="audience-card reveal">
+
+                        <h3>
+                            04 — Publique como PWA
+                        </h3>
+
+                        <p>
+
+                            Configure Manifest e Service Worker
+                            para disponibilizar uma aplicação
+                            instalável e preparada para funcionar
+                            offline.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ========================================================= -->
+        <!-- EXEMPLO -->
+        <!-- ========================================================= -->
+
+        <section class="section dark-section">
+
+            <div class="container">
+
+
+                <div class="section-heading centered reveal">
+
+                    <span class="section-label">
+                        NA PRÁTICA
+                    </span>
+
+                    <h2>
+                        Defina a interface. O framework cuida da estrutura.
+                    </h2>
+
+                    <p>
+
+                        O JSON descreve a interface enquanto o
+                        JavaScript controla o comportamento da aplicação.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="code-window reveal">
+
+
+                    <div class="window-bar">
+
+                        <div class="window-dots">
+
+                            <i></i>
+                            <i></i>
+                            <i></i>
+
+                        </div>
+
+                        <span>
+                            login.json
+                        </span>
+
+                    </div>
+
+
+
+                    <div class="code-body">
+
+                        <div>
+                            {
+                        </div>
+
+
+                        <div class="indent">
+
+                            <span class="code-string">
+                                "element"
+                            </span>:
+
+                            <span class="code-value">
+                                "app-column"
+                            </span>,
+
+                        </div>
+
+
+                        <div class="indent">
+
+                            <span class="code-string">
+                                "children"
+                            </span>: [
+
+                        </div>
+
+
+                        <div class="indent">
+
+                            <div class="indent">
+
+                                {
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="indent">
+
+                            <div class="indent">
+
+                                <span class="code-string">
+                                    "element"
+                                </span>:
+
+                                <span class="code-value">
+                                    "h1"
+                                </span>,
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="indent">
+
+                            <div class="indent">
+
+                                <span class="code-string">
+                                    "text"
+                                </span>:
+
+                                <span class="code-value">
+                                    "Entrar"
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="indent">
+
+                            <div class="indent">
+
+                                }
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="indent">
+
+                            ]
+
+                        </div>
+
+
+                        <div>
+                            }
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ========================================================= -->
+        <!-- PARA QUEM É -->
+        <!-- ========================================================= -->
+
+        <section class="section audience">
+
+            <div class="container">
+
+
+                <div class="section-heading centered reveal">
+
+                    <span class="section-label">
+                        PARA QUEM É
+                    </span>
+
+                    <h2>
+                        Para quem quer construir aplicações.
+                    </h2>
+
+                    <p>
+
+                        Uma estrutura para estudar, experimentar,
+                        criar protótipos e desenvolver projetos próprios.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="audience-grid">
+
+
+                    <div class="audience-card reveal">
+
+                        <h3>
+                            Estudantes
+                        </h3>
+
+                        <p>
+
+                            Uma base prática para estudar HTML,
+                            CSS, JavaScript, componentes, JSON,
+                            PWA e organização de projetos.
+
+                        </p>
+
+                    </div>
+
+
+
+                    <div class="audience-card reveal">
+
+                        <h3>
+                            Desenvolvedores
+                        </h3>
+
+                        <p>
+
+                            Uma estrutura inicial para protótipos,
+                            projetos pessoais e aplicações web
+                            personalizadas.
+
+                        </p>
+
+                    </div>
+
+
+
+                    <div class="audience-card reveal">
+
+                        <h3>
+                            Criadores de projetos
+                        </h3>
+
+                        <p>
+
+                            Uma forma de começar rapidamente sem
+                            precisar montar toda a estrutura básica
+                            de uma aplicação do zero.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ========================================================= -->
+        <!-- AUTOR -->
+        <!-- ========================================================= -->
+
+        <section class="section author-section" id="autor">
+
+            <div class="container author-grid">
+
+
+                <div class="author-photo-placeholder reveal">
+                    <!-- <img src="img/author.png" alt="Jin H. D. Cavalari"> -->
+                    <span>J C</span>
+                </div>
+
+
+
+                <div class="author-copy reveal">
+
+                    <span class="section-label">
+                        SOBRE O PROJETO
+                    </span>
+
+
+                    <h2>
+
+                        Criado por
+                        <strong>
+                            Jin H. D. Cavalari
+                        </strong>.
+
+                    </h2>
+
+
+                    <p>
+
+                        Estudante de Tecnologia em Sistemas
+                        para Internet na
+                        <strong>
+                            Universidade Tecnológica Federal
+                            do Paraná (UTFPR)
+                        </strong>.
+
+                    </p>
+
+
+                    <p>
+
+                        O WebAppForge nasceu da necessidade de ter
+                        uma estrutura própria, simples e organizada
+                        para desenvolver aplicações web sem precisar
+                        reconstruir a mesma base em cada novo projeto.
+
+                    </p>
+
+
+                    <p>
+
+                        A ferramenta reúne componentes reutilizáveis,
+                        definição de interfaces em JSON, navegação,
+                        ações, modais, PWA e Service Worker em uma
+                        estrutura que pode ser estudada, modificada
+                        e expandida.
+
+                    </p>
+
+
+                    <div class="author-credentials">
+
+
+                        <div>
+
+                            <strong>
+                                TSI
+                            </strong>
+
+                            <span>
+                                UTFPR
+                            </span>
+
+                        </div>
+
+
+                        <div>
+
+                            <strong>
+                                WEB
+                            </strong>
+
+                            <span>
+                                HTML + CSS + JS
+                            </span>
+
+                        </div>
+
+
+                        <div>
+
+                            <strong>
+                                PWA
+                            </strong>
+
+                            <span>
+                                foco do projeto
+                            </span>
+
+                        </div>
+
+
+                    </div>
+
+
+                    <p class="author-note">
+
+                        A proposta é oferecer uma ferramenta direta,
+                        compreensível e personalizável para quem
+                        deseja aprender e construir suas próprias
+                        aplicações.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ========================================================= -->
+        <!-- OFERTA -->
+        <!-- ========================================================= -->
+
+        <section class="section offer">
+
+            <div class="container offer-box reveal">
+
+
+                <div>
+
+                    <span class="section-label">
+                        COMECE AGORA
+                    </span>
+
+
+                    <h2>
+                        Pare de começar cada projeto do zero.
+                    </h2>
+
+
+                    <p>
+
+                        Adquira o WebAppForge e tenha uma base organizada
+                        para desenvolver aplicações web e PWA utilizando
+                        HTML, CSS, JavaScript e JSON.
+
+                    </p>
+
+                </div>
+
+
+
+                <a href="https://pay.hotmart.com/P107154364I?off=2zjk6tid&amp;hotfeature=51&amp;_hi=eyJjaWQiOiIxNzc1NDM3NzUwNjI3NjEwOTUwNzA5MDI4NDI3MDAwIiwiYmlkIjoiMTc3NTQzNzc1MDYyNzYxMDk1MDcwOTAyODQyNzAwMCIsInNpZCI6Ijk3MTg4M2EyNmE4ODQ0OGZhNTM3NGNhZThlMWI2YzZiIn0=.1786809033437"
+                    class="btn btn-primary btn-large">
+                    Adquira o WebAppForge
+                </a>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ========================================================= -->
+        <!-- FAQ -->
+        <!-- ========================================================= -->
+
+        <section class="section faq" id="faq">
+
+            <div class="container faq-container">
+
+
+                <div class="section-heading centered reveal">
+
+                    <span class="section-label">
+                        DÚVIDAS
+                    </span>
+
+                    <h2>
+                        Perguntas frequentes.
+                    </h2>
+
+                </div>
+
+
+
+                <div class="faq-list">
+
+
+                    <details class="reveal">
+
+                        <summary>
+                            O WebAppForge é um aplicativo ou um framework?
+                        </summary>
+
+                        <p>
+
+                            O WebAppForge é um framework/estrutura para
+                            criação de aplicações web e PWA. Ele fornece
+                            uma arquitetura organizada para telas,
+                            componentes, modais, ações, estilos,
+                            navegação e recursos offline.
+
+                        </p>
+
+                    </details>
+
+
+
+                    <details class="reveal">
+
+                        <summary>
+                            Quais tecnologias são utilizadas?
+                        </summary>
+
+                        <p>
+
+                            O WebAppForge utiliza tecnologias web padrão:
+                            HTML, CSS e JavaScript, além de arquivos JSON
+                            para definição da interface.
+
+                        </p>
+
+                    </details>
+
+
+
+                    <details class="reveal">
+
+                        <summary>
+                            As telas são criadas em HTML?
+                        </summary>
+
+                        <p>
+
+                            A estrutura visual das telas pode ser definida
+                            através de arquivos JSON. O WebAppForge interpreta
+                            esses arquivos e cria os elementos HTML
+                            correspondentes.
+
+                        </p>
+
+                    </details>
+
+
+
+                    <details class="reveal">
+
+                        <summary>
+                            Preciso saber programação?
+                        </summary>
+
+                        <p>
+
+                            Conhecimentos de HTML, CSS e JavaScript são
+                            recomendados para aproveitar todo o potencial
+                            do WebAppForge. A documentação explica a
+                            estrutura e o funcionamento do projeto.
+
+                        </p>
+
+                    </details>
+
+
+
+                    <details class="reveal">
+
+                        <summary>
+                            Posso modificar o projeto?
+                        </summary>
+
+                        <p>
+
+                            Sim. A estrutura foi criada para ser
+                            personalizada e expandida de acordo com
+                            as necessidades da aplicação.
+
+                        </p>
+
+                    </details>
+
+
+
+                    <details class="reveal">
+
+                        <summary>
+                            O WebAppForge funciona offline?
+                        </summary>
+
+                        <p>
+
+                            Sim. O Service Worker utiliza cache para
+                            armazenar os recursos da aplicação. Quando
+                            não há conexão, os arquivos disponíveis no
+                            cache podem ser utilizados.
+
+                        </p>
+
+                    </details>
+
+
+
+                    <details class="reveal">
+
+                        <summary>
+                            Como funciona o sistema de cache?
+                        </summary>
+
+                        <p>
+
+                            O Service Worker utiliza uma estratégia
+                            Network First: primeiro tenta obter o
+                            recurso pela internet. Caso a conexão falhe,
+                            procura o recurso no cache.
+
+                        </p>
+
+                    </details>
+
+
+
+                    <details class="reveal">
+
+                        <summary>
+                            Posso criar meu próprio aplicativo com ele?
+                        </summary>
+
+                        <p>
+
+                            Sim. O WebAppForge foi desenvolvido como
+                            uma base para criação de aplicações web
+                            e PWA que podem ser adaptadas ao objetivo
+                            de cada projeto.
+
+                        </p>
+
+                    </details>
+
+
+
+                    <details class="reveal">
+
+                        <summary>
+                            Posso adicionar minhas próprias funcionalidades?
+                        </summary>
+
+                        <p>
+
+                            Sim. A lógica específica da aplicação pode
+                            ser organizada no arquivo
+                            <code>actions.js</code> e acessada através
+                            de <code>APP.actions</code>.
+
+                        </p>
+
+                    </details>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ========================================================= -->
+        <!-- CTA FINAL -->
+        <!-- ========================================================= -->
+
+        <section class="final-cta">
+
+            <div class="container reveal">
+
+
+                <span class="section-label">
+                    WEBAPPFORGE
+                </span>
+
+
+                <h2>
+                    Comece seu próximo projeto com uma base pronta.
+                </h2>
+
+
+                <p>
+
+                    HTML, CSS, JavaScript e JSON.
+                    Uma estrutura organizada para você construir.
+
+                </p>
+
+
+                <a href="https://pay.hotmart.com/P107154364I?off=2zjk6tid&amp;hotfeature=51&amp;_hi=eyJjaWQiOiIxNzc1NDM3NzUwNjI3NjEwOTUwNzA5MDI4NDI3MDAwIiwiYmlkIjoiMTc3NTQzNzc1MDYyNzYxMDk1MDcwOTAyODQyNzAwMCIsInNpZCI6Ijk3MTg4M2EyNmE4ODQ0OGZhNTM3NGNhZThlMWI2YzZiIn0=.1786809033437"
+                    class="btn btn-white btn-large">
+                    Adquira o WebAppForge Agora
+                </a>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <footer class="footer">
+
+        <div class="container footer-inner">
+
+
+            <div>
+
+                <strong>
+                    WebAppForge
+                </strong>
+
+                <span>
+                    Framework para aplicações web e PWA.
+                </span>
+
+            </div>
+
+
+            <span>
+                © <span id="year"></span>
+                WebAppForge
+            </span>
+
+
+        </div>
+
+    </footer>
+
+
+
+    <script>
+
+        document.getElementById("year").textContent =
+            new Date().getFullYear();
+
+
+        const observer =
+            new IntersectionObserver(
+
+                (entries) => {
+
+                    entries.forEach(entry => {
+
+                        if (entry.isIntersecting) {
+
+                            entry.target.classList.add(
+                                "visible"
+                            );
+
+                            observer.unobserve(
+                                entry.target
+                            );
+
+                        }
+
+                    });
+
+                },
+
+                {
+                    threshold: 0.12
+                }
+
+            );
+
+
+        document
+            .querySelectorAll(".reveal")
+            .forEach(element => {
+
+                observer.observe(element);
+
+            });
+
+    </script>
+
+
+</body>
+
+</html>
